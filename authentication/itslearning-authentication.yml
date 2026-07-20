@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.itslearning.com/
+docs: https://developer.itslearning.com/Content-and-tool-integrations.html
+note: >-
+  itslearning has no OpenAPI to derive from; this profile is captured from the developer portal.
+  Different API surfaces use different auth models.
+summary:
+  types: [oauth2, http, ims-enterprise]
+  oauth2_flows: [clientCredentials]
+schemes:
+- name: LTI 1.3 / OAuth2
+  type: oauth2
+  scheme: clientCredentials
+  description: >-
+    LTI 1.3 Core and LTI Advantage use the IMS Security Framework — OpenID Connect third-party-initiated
+    login plus OAuth 2.0 client_credentials with signed JWT client assertions and JWKS key sets for
+    tool <-> platform messaging. itslearning holds LTI Advantage Complete certification.
+  applies_to: LTI Integration
+  standards: [lti-1.3, lti-advantage, oauth2, oidc, jwt]
+- name: Organisation API credentials
+  type: http
+  description: >-
+    The SOAP Organisation API (DataService/ReadDataService/FileService/FileStreamService/InstanceService)
+    and IMS Enterprise Services are authenticated per itslearning site with issued service credentials.
+  applies_to: [Organisation API, IMS Enterprise Services]
+- name: Data Warehouse OData access
+  type: http
+  description: >-
+    OData Data Warehouse access is provisioned per customer via the account manager; credentials are
+    issued to the customer's reporting/BI connection.
+  applies_to: Data Warehouse API
