@@ -1,9 +1,28 @@
 aid: itslearning
 name: itslearning
-description: 'itslearning is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'itslearning is a Norwegian learning management system (LMS) founded in 1999 and
+  headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves
+  primary, secondary, vocational, higher education, lifelong-learning and international schools across
+  Europe and beyond, giving teachers lesson planning ("Plans"), assessment and quizzing, communication,
+  an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an
+  Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse
+  OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and
+  standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1
+  deprecated since June 2022) for third-party tool and content integration into the itslearning Library.'
 url: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://itslearning.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,112 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Saas
-apis: []
+- Education
+- EdTech
+- Learning Management System
+- LMS
+- LTI
+- Norway
+apis:
+- name: itslearning Organisation API
+  description: SOAP web services (DataService, ReadDataService, FileService, FileStreamService,
+    InstanceService) to automate workflows by managing courses, content, files and assessments on an
+    itslearning site. Used for content migration, timetable synchronization and assessment updates.
+  humanURL: https://developer.itslearning.com/Organisation-API.html
+  baseURL: https://eu1.itslearning.com
+  properties:
+  - type: Documentation
+    url: https://developer.itslearning.com/Organisation-API.html
+- name: itslearning Data Warehouse API
+  description: OData-based reporting and analytics API over a star-schema data warehouse refreshed by a
+    daily overnight ETL, compatible with common BI and reporting tools. Access is granted via the
+    customer's account manager.
+  humanURL: https://developer.itslearning.com/Data-warehouse.html
+  baseURL: https://eu1.itslearning.com
+  properties:
+  - type: Documentation
+    url: https://developer.itslearning.com/Data-warehouse.html
+- name: itslearning IMS Enterprise Services
+  description: Standardized IMS Enterprise web services and SFTP XML imports to manage users, groups and
+    courses (persons, memberships and groups) for provisioning and roster synchronization.
+  humanURL: https://developer.itslearning.com/IMS-Enterprise-Services.html
+  baseURL: https://eu1.itslearning.com
+  properties:
+  - type: Documentation
+    url: https://developer.itslearning.com/IMS-Enterprise-Services.html
+- name: itslearning LTI Integration
+  description: Learning Tools Interoperability integration supporting LTI 1.3 Core and LTI Advantage
+    (itslearning holds LTI Advantage Complete certification) to securely embed third-party tools and
+    contribute content to the itslearning Library. LTI 1.0/1.1 deprecated since June 2022.
+  humanURL: https://developer.itslearning.com/Content-and-tool-integrations.html
+  baseURL: https://eu1.itslearning.com
+  properties:
+  - type: Documentation
+    url: https://developer.itslearning.com/Content-and-tool-integrations.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: VulnerabilityDisclosure
+  url: security/itslearning-vulnerability-disclosure.yml
+- type: Security
+  url: https://itslearning.com/privacy-commitment/responsible-disclosure/
+- type: DomainSecurity
+  url: security/itslearning-domain-security.yml
+- type: SecurityTxt
+  url: well-known/itslearning-security.txt
+- type: WellKnown
+  url: well-known/itslearning-well-known.yml
+- type: Authentication
+  url: authentication/itslearning-authentication.yml
+- type: Conformance
+  url: conformance/itslearning-conformance.yml
+- type: Compliance
+  url: https://itslearning.com/privacy-commitment/gdpr
+- type: Lifecycle
+  url: lifecycle/itslearning-lifecycle.yml
+- type: Deprecation
+  url: https://developer.itslearning.com/Content-and-tool-integrations.html
+- type: LLMsTxt
+  url: llms/itslearning-llms.txt
+- type: Website
+  url: https://itslearning.com/
+- type: DeveloperPortal
+  url: https://developer.itslearning.com/
+- type: Documentation
+  url: https://developer.itslearning.com/
+- type: APIReference
+  url: https://developer.itslearning.com/Content-and-tool-integrations.html
+- type: Support
+  url: https://itslearning.com/support
+- type: Blog
+  url: https://itslearning.com/blog
+- type: Pricing
+  url: https://itslearning.com/learn/pricing
+- type: SignUp
+  url: https://itslearning.com/request-a-demo
+- type: Login
+  url: https://eu1.itslearning.com/welcome.aspx
+- type: PrivacyPolicy
+  url: https://itslearning.com/privacy-commitment
+- type: TermsOfService
+  url: https://itslearning.com/privacy-commitment/gdpr
+- type: Roadmap
+  url: https://itslearning.com/roadmap
+- type: StatusPage
+  url: https://status.itslearning.com/
+- type: Integrations
+  url: https://itslearning.com/solution/integrations
+- type: ChangeLog
+  url: https://itslearning.com/product-updates
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,11 @@
+generated: '2026-07-19'
+method: searched
+source: https://itslearning.com/product-updates
+scheme: rolling-product-updates
+note: >-
+  itslearning publishes a rolling, dated Product Updates feed rather than a semantic API changelog. The
+  live page is the source of truth; no fixed API version numbers are published for the integration
+  surfaces.
+url: https://itslearning.com/product-updates
+roadmap: https://itslearning.com/roadmap
+entries: []

@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+source: https://itslearning.com/
+versioning:
+  scheme: standards-versioned
+  note: >-
+    Integration surfaces are versioned by the underlying standard (LTI 1.0/1.1/1.3, IMS Enterprise,
+    OData) rather than a single itslearning API version.
+deprecation:
+  policy_url: https://developer.itslearning.com/Content-and-tool-integrations.html
+  examples:
+  - LTI 1.0 and LTI 1.1 deprecated since June 2022; LTI 1.3 recommended
+status_page: https://status.itslearning.com/
+roadmap: https://itslearning.com/roadmap
+product_updates: https://itslearning.com/product-updates

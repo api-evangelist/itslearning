@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://itslearning.com/.well-known/
+hosts:
+- host: https://itslearning.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: itslearning-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://eu1.itslearning.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: identical to itslearning.com security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+- host: https://developer.itslearning.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    note: developer portal blocks automated .well-known requests

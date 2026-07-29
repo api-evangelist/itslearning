@@ -1,0 +1,29 @@
+# itslearning
+
+> itslearning is a Norwegian learning management system (LMS) founded in 1999 in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher, lifelong-learning and international schools, giving teachers lesson planning, assessment, communication, an AI Toolkit, administration and reporting. Integrators use its Organisation API (SOAP), a Data Warehouse OData reporting API, IMS Enterprise Services, and standards-based LTI 1.3 / LTI Advantage.
+
+## APIs
+- [Organisation API](https://developer.itslearning.com/Organisation-API.html): SOAP web services to manage courses, content, files and assessments
+- [Data Warehouse API](https://developer.itslearning.com/Data-warehouse.html): OData reporting/analytics over a star-schema warehouse (daily ETL)
+- [IMS Enterprise Services](https://developer.itslearning.com/IMS-Enterprise-Services.html): user/group/course provisioning (persons, memberships, groups)
+- [LTI Integration](https://developer.itslearning.com/Content-and-tool-integrations.html): LTI 1.3 Core + LTI Advantage tool and content integration
+
+## Docs
+- [Developer Portal](https://developer.itslearning.com/): API and integration documentation
+- [Integrations](https://itslearning.com/solution/integrations): certified partner and tool integrations
+- [Support](https://itslearning.com/support): help center and contact
+- [Roadmap](https://itslearning.com/roadmap): product roadmap
+- [Product Updates](https://itslearning.com/product-updates): rolling dated release notes
+- [Status](https://status.itslearning.com/): service status
+
+## Company
+- [Blog](https://itslearning.com/blog): company and education blog
+- [Pricing](https://itslearning.com/learn/pricing): pricing information
+- [Privacy Commitment](https://itslearning.com/privacy-commitment): privacy and GDPR posture
+- [Responsible Disclosure](https://itslearning.com/privacy-commitment/responsible-disclosure/): security vulnerability reporting
+
+## Artifacts
+- [Authentication](https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/authentication/itslearning-authentication.yml)
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/conformance/itslearning-conformance.yml)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/lifecycle/itslearning-lifecycle.yml)
+- [Well-Known](https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/well-known/itslearning-well-known.yml)
