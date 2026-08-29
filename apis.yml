@@ -10,6 +10,17 @@ description: 'itslearning is a Norwegian learning management system (LMS) founde
   standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1
   deprecated since June 2022) for third-party tool and content integration into the itslearning Library.'
 url: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
