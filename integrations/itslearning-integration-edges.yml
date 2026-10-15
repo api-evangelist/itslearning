@@ -68,10 +68,92 @@ edges:
   category: classroom_management
   features:
   - secure_sync
+- partner_name: eduGAIN
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: network-participant
+  direction: partner-built
+  evidence: https://technical.edugain.org/api.php?action=list_entities&type=sp&format=json
+  category: research and education identity federation
+  contract_reference:
+    network: eduGAIN (GÉANT interfederation)
+    spec_file: null
+    roles:
+    - service-provider
+    role: service-provider
+    federations:
+    - FEIDE
+    matched_by: domain:itslearning.com
+    entities:
+    - entity_id: https://eu1.itslearning.com/integrations/samlmetadata/saml2v2/2
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://eu1.itslearning.com/integrations/samlmetadata/saml2v2/3
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://eu1.itslearning.com/integrations/samlmetadata/saml2v2/extensions/3
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories:
+      - '5'
+      sirtfi: false
+      coco: true
+    - entity_id: https://eu1.itslearning.com/integrations/samlmetadata/saml2v2/signed/3
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://us1.itslearning.com/integrations/samlmetadata/saml2v2/2
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://us1.itslearning.com/integrations/samlmetadata/saml2v2/3
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    - entity_id: https://us1.itslearning.com/integrations/samlmetadata/saml2v2/extensions/3
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories:
+      - '5'
+      sirtfi: false
+      coco: true
+    - entity_id: https://www.itslearning.com/integrations/samlmetadata/saml2v2/2
+      role: service-provider
+      federation: FEIDE
+      display_name: itslearning
+      entity_categories: null
+      sirtfi: false
+      coco: true
+    detected_by: sweep-higher-ed.py
+    detected: '2026-10-15'
+  detected_by: sweep-higher-ed.py
+  first_seen: '2026-10-15'
 generated: '2026-10-14'
 method: searched
 checked:
 - clever/integrations/clever-integration-edges.yml
 - https://site.imsglobal.org/certifications
+- https://technical.edugain.org/api.php?action=list_entities&type=idp&format=json
+- https://technical.edugain.org/api.php?action=list_entities&type=sp&format=json
 source:
 - clever/integrations/clever-integration-edges.yml
