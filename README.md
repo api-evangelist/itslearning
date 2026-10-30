@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-itslearning is a company surfaced as a portfolio company of creandum and added to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment pipeline.
+itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, giving teachers lesson planning ("Plans"), assessment and quizzing, communication, an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1 deprecated since June 2022) for third-party tool and content integration into the itslearning Library.
 
-Backed by: creandum
+**Areas:** Company · Software-as-a-Service · Education · EdTech · LMS · LTI · Norway
+
+## itslearning on APIs.io
+
+Everything profiled for itslearning is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/itslearning/](https://apis.io/providers/itslearning/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [itslearning Organisation API](https://apis.io/apis/itslearning/itslearning-organisation-api/) — SOAP web services (DataService, ReadDataService, FileService, FileStreamService, InstanceService) to automate workflows by managing courses, content, files…
+- [itslearning Data Warehouse API](https://apis.io/apis/itslearning/itslearning-data-warehouse-api/) — OData-based reporting and analytics API over a star-schema data warehouse refreshed by a daily overnight ETL, compatible with common BI and reporting tools.…
+- [itslearning IMS Enterprise Services](https://apis.io/apis/itslearning/itslearning-ims-enterprise-services/) — Standardized IMS Enterprise web services and SFTP XML imports to manage users, groups and courses (persons, memberships and groups) for provisioning and…
+- [itslearning LTI Integration](https://apis.io/apis/itslearning/itslearning-lti-integration/) — Learning Tools Interoperability integration supporting LTI 1.3 Core and LTI Advantage (itslearning holds LTI Advantage Complete certification) to securely…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Itslearning Authentication](https://apis.io/security/itslearning/itslearning-authentication/)
+- [Itslearning Domain Security](https://apis.io/security/itslearning/itslearning-domain-security/)
+- [Itslearning Vulnerability Disclosure](https://apis.io/security/itslearning/itslearning-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://itslearning.com/)
+- [Documentation](https://developer.itslearning.com/)
+- [API reference](https://developer.itslearning.com/Content-and-tool-integrations.html)
+- [Pricing](https://itslearning.com/learn/pricing)
+- [Sign up](https://itslearning.com/request-a-demo)
+- [Support](https://itslearning.com/support)
+- [Changelog](https://itslearning.com/product-updates)
+- [Blog](https://itslearning.com/blog)
+- [Security](https://itslearning.com/privacy-commitment/responsible-disclosure/)
+- [Compliance](https://itslearning.com/privacy-commitment/gdpr)
+- [Terms of service](https://itslearning.com/privacy-commitment/gdpr)
+- [Privacy policy](https://itslearning.com/privacy-commitment)
+- [Status](https://status.itslearning.com/)
+
+## API Evangelist rating
+
+**Kin Score 40.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 5.3 |
+| Contract governance | 18.2 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 52.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 35.3** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/itslearning/](https://apis.io/providers/itslearning/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for itslearning: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/itslearning/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
